@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CheckoutButton from '@/components/CheckoutButton';
 import CheckoutWithUsernames from "@/components/CheckoutWithUsernames"
+
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center  min-h-screen  pb-20   font-[family-name:var(--font-geist-sans)] bg-[#8C8274]">
