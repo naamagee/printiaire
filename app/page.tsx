@@ -29,7 +29,6 @@ export default function Home() {
         <div className="font-[family-name:var(--font-parisienne)] pb-8 px-10">connect your accounts and receive personalized publications</div>
         <Image src="/mockup.png" alt="magazine preview" width="1000" height="750" />
         <p>Price: $29.99</p>
-        <CheckoutButton price={19.99} />
         <CheckoutWithUsernames price={19.199} />
       </section>
       <footer className="row-start-3 flex gap-6 flex-col items-center justify-center">
