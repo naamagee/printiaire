@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Instrument_Sans, Instrument_Serif, Parisienne } from 'next/font/google'
- 
+import { Analytics } from "@vercel/analytics/react"
 // If loading a variable font, you don't need to specify the font weight
 const instrumentSans = Instrument_Sans({
   subsets: ['latin'],
@@ -51,6 +51,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Analytics/>
     </html>
   );
 }
